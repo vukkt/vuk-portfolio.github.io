@@ -1,0 +1,66 @@
+h3 {
+    color: #FF7500; 
+    padding-left: 26px; 
+    padding-top: 0px; 
+
+
+}
+p {
+    color: #777; 
+    padding-left: 26px; 
+    text-align: auto; 
+    max-width: 450px;
+    margin: 0;
+    line-height: 1.5;
+}
+.buttonContainer {
+    margin-top: 10px;
+    padding-left: 26px; 
+    text-align: auto;
+    display: inline-block;
+}
+
+.stopwatchContainer{
+    margin-top: 10px;
+    padding-left: 26px; 
+    text-align: auto;
+    display: inline-block;
+    color: #777; 
+}
+
+.stopwatchButtons{
+    margin-top: 10px;
+    padding-left: auto; 
+    text-align: auto;
+    /* display: inline-block; */
+}
+
+.linkedinContainer,
+.gmailContainer {
+    margin-top: 10px;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+.githubContainer{
+    padding-left: 26px;
+    display: inline-block;
+
+
+}
+.githubContainer img,
+.linkedinContainer img,
+.gmailContainer img {
+    width: 50px; /* Adjust the size of the icons as needed */
+    height: 50px;
+    margin: 0px; /* Adjust the spacing between icons as needed */
+    text-decoration: none; /* Remove the default underline */
+    display: inline-block; /* Display icons in a line */
+    filter: invert(1); /* Invert the colors of the images */
+}
+
+.githubContainer img:hover,
+.linkedinContainer img:hover,
+.gmailContainer img:hover {
+    filter: brightness(1.2) invert(1); /* Adjust brightness and invert on hover */
+}

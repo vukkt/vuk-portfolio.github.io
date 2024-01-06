@@ -1,0 +1,46 @@
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;; /* Light gray background color */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+li:first-child a {
+    padding-left: 26px; /* Adjust this value as needed */
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    transition: color 0.3s; /* Add a smooth transition for color change */
+}
+
+li a:hover {
+    color: #FF7500; /* Change the text color on hover */
+}
+li a:active {
+    /* Add an embossed effect when the link is active (clicked) */
+    transform: translateY(2px);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+#glowButton {
+    margin-top: 10px;
+    transition: box-shadow 0.3s; /* Add a smooth transition for the glow effect */
+}
+
+.glowing {
+    box-shadow: 0 0 15px #3498db; /* Set your glow color and intensity */
+}
